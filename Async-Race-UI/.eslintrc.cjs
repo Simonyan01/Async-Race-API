@@ -1,13 +1,13 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2024: true },
+  env: { browser: true, es2022: true },
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
   ],
-  "--ignorePatterns": ["dist", ".eslintsrc.cjs"],
+  ignorePatterns: ["dist", ".eslintsrc.cjs"],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
@@ -16,7 +16,7 @@ module.exports = {
   plugins: ["react", "react-refresh"],
   rules: {
     "react/prop-types": "off",
-    "no-undef": "warn",
+    "no-undef": "off",
     "no-unused-vars": "warn",
     "react-refresh/only-export-components": [
       "warn",

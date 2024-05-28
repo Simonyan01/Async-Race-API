@@ -12,7 +12,7 @@
     "paths": {
       "components/*": ["src/components/*"],
       "features/*": ["src/features/*"],
-      "assets/*": ["src/assets/*"],
+      // "assets/*": ["src/assets/*"],
       "routes/*": ["src/routes/*"],
       "types/*": ["src/types/*"],
       "hooks/*": ["src/hooks/*"],
